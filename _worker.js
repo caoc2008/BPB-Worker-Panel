@@ -3217,22 +3217,22 @@ const singboxConfigTemp = {
                 url: "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geoip-phishing.srs",
                 download_detour: "direct"
             },
-			{
-				"type": "remote",
-				"tag": "cn-domain",
-				"format": "binary",
-				"url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-cn.srs",
-				"download_detour": "direct",
-				"update_interval": "24h"
-			},
-			{
-				"type": "remote",
-				"tag": "cn-ip",
-				"format": "binary",
-				"url": "https://raw.githubusercontent.com/SagerNet/sing-geoip/rule-set/geoip-cn.srs",
-				"download_detour": "direct",
-				"update_interval": "24h"
-			}
+	    {
+		"type": "remote",
+		"tag": "cn-domain",
+		"format": "binary",
+		"url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-cn.srs",
+		"download_detour": "direct",
+		"update_interval": "24h"
+	    },
+	    {
+		"type": "remote",
+		"tag": "cn-ip",
+		"format": "binary",
+		"url": "https://raw.githubusercontent.com/SagerNet/sing-geoip/rule-set/geoip-cn.srs",
+		"download_detour": "direct",
+		"update_interval": "24h"
+	    }
         ],
         auto_detect_interface: true,
         override_android_vpn: true,
