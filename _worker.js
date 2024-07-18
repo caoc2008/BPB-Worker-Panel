@@ -3221,14 +3221,14 @@ const singboxConfigTemp = {
 		"type": "remote",
 		"tag": "cn-domain",
 		"format": "binary",
-		"url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-cn.srs",
+		"url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-cn.srs",
 		"download_detour": "direct",
 	    },
 	    {
 		"type": "remote",
 		"tag": "cn-ip",
 		"format": "binary",
-		"url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/SagerNet/sing-geoip/rule-set/geoip-cn.srs",
+		"url": "https://raw.githubusercontent.com/SagerNet/sing-geoip/rule-set/geoip-cn.srs",
 		"download_detour": "direct",
 	    }
         ],
