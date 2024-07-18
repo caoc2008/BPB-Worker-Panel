@@ -3222,16 +3222,14 @@ const singboxConfigTemp = {
 		"tag": "cn-domain",
 		"format": "binary",
 		"url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-cn.srs",
-		"download_detour": "direct",
-		"update_interval": "24h"
+		"download_detour": "proxy",
 	    },
 	    {
 		"type": "remote",
 		"tag": "cn-ip",
 		"format": "binary",
 		"url": "https://raw.githubusercontent.com/SagerNet/sing-geoip/rule-set/geoip-cn.srs",
-		"download_detour": "direct",
-		"update_interval": "24h"
+		"download_detour": "proxy",
 	    }
         ],
         auto_detect_interface: true,
